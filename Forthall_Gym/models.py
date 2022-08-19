@@ -1,6 +1,3 @@
-from distutils.command.upload import upload
-from tkinter import CASCADE
-from tkinter.tix import IMAGE
 from django.db import models
 from django.contrib.auth import get_user_model
 from tinymce import models as tinymce_models
