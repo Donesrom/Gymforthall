@@ -1,1 +1,1 @@
-web: gunicorn Forthall.wsgi --log-file -
+web: waitress-serve --port=$PORT Forthall.wsgi:application
