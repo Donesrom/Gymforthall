@@ -1,0 +1,1 @@
+web: gunicorn Forthall.wsgi --log-file -
